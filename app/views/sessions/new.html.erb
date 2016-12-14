@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>New session</title>
+  </head>
+  <body>
+    <form action='/login' method='post'>
+      <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+      <label>Email<input type='text' name='email'></label>
+      <label>Password<input type='password' name='password'></label>
+      <input type='submit' value='Log In'>
+    </form>
+  </body>
+</html>
