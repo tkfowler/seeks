@@ -15,7 +15,7 @@ Rails.application.routes.draw do
 
   post '/create' => 'users#create'
 
-  post '/likes/:id' => 'likes#create'
+  post '/likes' => 'likes#create'
 
   put '/users/:id' => 'users#update'
 
