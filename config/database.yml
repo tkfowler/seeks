@@ -17,8 +17,8 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  username: postgres #default if not created
-  password: thomas13 #default if not created
+  username: ubuntu #default if not created
+  # password: thomas13 #default if not created
   pool: 5
 development:
   <<: *default
